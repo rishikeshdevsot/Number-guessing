@@ -1,0 +1,15 @@
+p1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;   
+}
+input{
+    margin: 10px;
+    align-content: center;
+}
+
+button{
+    align-content: center;
+}
