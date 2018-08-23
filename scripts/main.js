@@ -3,7 +3,6 @@ var guesses = document.createElement('p');
 var Result = document.createElement('p');
 
 var attempts = 0;
-var olol = 0;
 
 guesses.textContent = "Guesses: ";
 document.body.appendChild(guesses);
@@ -20,11 +19,9 @@ submitButton.onclick = function() {
     if(attempts <= 10){
         
         if (enteredNumber === randomNum){
-            olol = 1;
             Attempt(1, enteredNumber);
         }
         else{
-            olol = 0;
             Attempt(0, enteredNumber);
         }
     }
